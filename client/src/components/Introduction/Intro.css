@@ -1,0 +1,133 @@
+.main-container
+{
+    text-align: center;
+}
+
+.border-container{
+    position: relative;
+    margin:0 auto;
+    width: fit-content;
+    border: 10px solid white;
+    border-radius: 50% 10%;
+	background:linear-gradient(to bottom left, #f83600, #f9d423);
+    padding:25px;
+    border:transparent;
+    animation: normalize 1s ease-in-out 0s 1 normal forwards;
+}
+.border-container:hover{
+    animation: circlize 1s ease-in-out 0.5s 1 normal forwards;
+}
+
+@keyframes circlize{
+    from
+    {border-radius:50% 10%}
+    to 
+    {border-radius: 50% 50%;}
+}
+@keyframes normalize{
+    from{
+        border-radius: 50% 50%;
+    }
+    to{
+        border-radius: 50% 10%;
+    }
+}
+
+.title{
+    color:white ;
+    text-align: center;
+    margin-bottom: 0;
+}
+.title-desc{
+    color:white;
+    text-align: center;
+    margin:0;
+    padding:20px;
+}
+
+.camera-box {  
+    width: fit-content;  
+    height:fit-content;  
+    background:transparent;
+    border-radius: 35px;  
+    display: grid;  
+    place-items: center;  
+  }  
+  .innerbox {  
+    width: 120px;  
+    height: 120px;  
+    border: 10px solid #fff;  
+    border-radius: 32px;  
+    display: grid;  
+    place-items: center;  
+    position: relative;  
+  } 
+  .innerbox::before {  
+    content: '';  
+    width: 45px;  
+    height: 45px;  
+    border: 10px solid #fff;  
+    border-radius: 50%;  
+    background: transparent;  
+    position: absolute;  
+  }  
+  .innerbox::after {  
+    content: '';  
+    width: 10px;  
+    height: 10px;  
+    border: 2px solid #fff;  
+    border-radius: 50%;  
+    background: #fff;  
+    position: absolute;  
+    top: 8px;  
+    right: 10px;  
+  } 
+
+  .enter-btn {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    margin-top:10%;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    padding:15px;
+    border: 1.5px solid white;
+  }
+  
+  .enter-btn:focus,
+  .enter-btn:hover {
+    color: #fff;
+    border:none;
+  }
+  
+  .enter-btn:focus:after,
+  .enter-btn:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .enter-btn:after {
+    content: "";
+    pointer-events: none;
+    bottom: 10px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  .description{
+    color:white;
+    text-align: center;
+    width:fit-content;
+  }

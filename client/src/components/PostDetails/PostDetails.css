@@ -1,0 +1,37 @@
+.imageMedia{
+    border-radius: 20px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    max-height: 600px !important;
+}
+.mainCard{
+    display: flex !important;
+    width: 100% !important;
+}
+.cardSection{
+    border-radius: 20px !important;
+    margin:10px !important;
+    flex:1 !important;
+}
+
+.cardImageSection{
+    margin-left: 20px !important;
+}
+
+.loadingPaper{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding:20px !important;
+    border-radius: 15px !important;
+    height: 39vh !important;
+}
+.recommendedPosts{
+    display: flex !important;
+}
+.recommendedCard{
+    border:1px solid black;
+    padding:20px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

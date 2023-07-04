@@ -1,0 +1,24 @@
+.outerContainer{
+    
+    justify-content: space-between;
+}
+.innerContainer{
+    height:200px;
+    overflow-y: auto;
+    margin-right: 30px;
+    width:100%;
+}
+.commentAvatar{
+    transform: scale(0.8);
+}
+.comment{
+    display: flex;
+    margin:2.5px;
+    padding:5px;
+    align-items: center;
+}
+
+#logInRef{
+    color:blue;
+    font-weight: 600;
+}

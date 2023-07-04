@@ -1,0 +1,24 @@
+.paper{
+    padding:25px !important;
+    margin-left:25px !important;   
+}
+
+.form{
+    display:flex !important;
+    flex-wrap:wrap !important;
+    justify-content:center !important;
+    margin:25px !important;
+}
+.textInput{
+    width:100%;
+    margin:10px 0 !important;
+}
+
+.fileInput{
+    width:97%;
+    margin:15px 0;
+}
+.submit-btn{
+    margin-top:10px;
+    margin-bottom: 15px;
+}

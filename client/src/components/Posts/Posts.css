@@ -1,0 +1,10 @@
+.mainContainer{
+    display: flex !important;
+    border-radius: 15px !important;
+    flex-direction: row !important;
+ 
+}
+
+.actionDiv{
+    text-align: center !important;
+}

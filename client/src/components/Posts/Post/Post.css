@@ -1,0 +1,96 @@
+.media {
+    height: 0 !important;
+    padding-top: 56.25% !important;
+    background-color: rgba(0,0,0,0.5) !important;
+    background-blend-mode: darken !important;
+}
+
+.border{
+    border: solid !important;
+}
+.fullHeightCard{
+    height:100% !important;
+}
+.card{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    border-radius: 35px !important;
+    height: 100% !important;
+    position: relative !important;
+    
+}
+.overlay{
+    position: absolute !important;
+    top:20px !important;
+    left:20px !important;
+    color:white !important;
+}
+.overlay2{
+    position: absolute !important;
+    top:20px !important;
+    right:20px !important;
+    color:white !important;
+}
+.grid{
+    display: flex !important;
+}
+.details{
+    display: flex !important;
+    justify-content: space-between !important;
+    margin:20px !important;
+}
+.title{
+    padding:0 16px !important;
+}
+#like-btn{
+    font-size: 16px !important; 
+}
+#like-btn:disabled{
+    color:gray;
+    opacity: 0.5;
+}
+#more-btn{
+    transform:translate(30%,-10%) !important ;
+}
+#more-ico{
+    font-size: 30px !important;
+}
+.cardActions{
+    padding: 0 16px 8px 16px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.cardAction{
+    display: block !important;
+    text-align: initial !important;
+}
+.modalBox{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 400 !important;
+    background-color:white !important ;
+    border: 2px solid #000 !important;
+    box-Shadow: 24 !important;
+    padding:25px !important;
+    
+}
+#modalTitle{
+    font-weight: 100 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    white-space: nowrap !important;
+}
+#yes-btn{
+    background-color: rgb(6, 244, 30) !important;
+    color:black !important;
+    font-size: 16px !important;
+    margin:10px !important;
+}
+#no-btn{
+    background-color: red !important;
+    left:70% !important;
+    color:black !important;
+    font-size: 16px !important;
+}
